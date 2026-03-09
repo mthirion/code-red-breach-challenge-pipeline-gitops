@@ -58,7 +58,7 @@ spec:
         - name: sslVerify
           value: 'false'
       taskRef:
-        kind: ClusterTask
+        kind: Task
         name: git-clone
       workspaces:
         - name: output
